@@ -60,6 +60,10 @@
     margin: 10px;
   }
 
+  .btnExpandable {
+    cursor: pointer;
+  }
+
   .tree-grid-container {
     max-width: 800px;
     margin: 50px auto;

@@ -17,7 +17,7 @@ export default function TreeGrid({ data }) {
           <tr className={row.subtasks ? "parent" : "child"}>
             <td>{row.taskID}</td>
             <td>
-              <button onClick={() => toggleRow(row.taskID)}>{expandedRows[row.taskID] ? '-' : '+'}</button>
+              <button className="btnExpandable" onClick={() => toggleRow(row.taskID)}>{expandedRows[row.taskID] ? '-' : '+'}</button>
               {row.taskName}
             </td>
             <td>{row.startDate.toDateString()}</td>
