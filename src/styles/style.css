@@ -1,0 +1,83 @@
+.formContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  padding: 3rem 5rem;
+}
+
+.inputField {
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  color: black;
+  width: 100%;
+  font-size: 1rem;
+  &:focus {
+    border: 0.1rem solid gray;
+    outline: none;
+  }
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: gray;
+    }
+  }
+
+  .link {
+    color: black;
+    text-transform: uppercase;
+    a {
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  .btnCustomComponent {
+    margin: 10px;
+  }
+
+  .tree-grid-container {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .tree-grid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tree-grid th,
+  .tree-grid td {
+    padding: 6px;
+    border: 1px solid gray;
+    background-color: white;
+  }
+  
+  .tree-grid button {
+    margin-right: 5px;
+  }
+  
